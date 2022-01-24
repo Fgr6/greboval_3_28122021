@@ -741,6 +741,7 @@ header .header__btn {
 }
 
 .carte .carte__resto__choix {
+  overflow: hidden;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -786,6 +787,8 @@ header .header__btn {
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
+  -webkit-transition: width 900ms;
+  transition: width 900ms;
 }
 
 .carte .carte__resto__choix .carte__choix__2 {
@@ -797,6 +800,8 @@ header .header__btn {
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
+  -webkit-transition: width 900ms;
+  transition: width 900ms;
 }
 
 .carte .carte__resto__choix .carte__choix__3 {
@@ -818,8 +823,6 @@ header .header__btn {
   height: 50px;
   border-top-right-radius: 10px;
   border-bottom-right-radius: 10px;
-  -webkit-animation: check 900ms;
-          animation: check 900ms;
   overflow: hidden;
 }
 
@@ -831,32 +834,31 @@ header .header__btn {
           transform: rotate(360deg);
 }
 
-.carte .carte__resto__choix:hover .carte__choix__3 {
-  -webkit-transform: translateX(-50px);
-          transform: translateX(-50px);
-  -webkit-transition: -webkit-transform 900ms ease-in-out;
-  transition: -webkit-transform 900ms ease-in-out;
-  transition: transform 900ms ease-in-out;
-  transition: transform 900ms ease-in-out, -webkit-transform 900ms ease-in-out;
+.carte .carte__resto__choix:hover .carte__choix__1 {
+  width: 65%;
+}
+
+.carte .carte__resto__choix:hover .carte__choix__2 {
+  width: 65%;
+}
+
+.carte .carte__resto__choix:hover .fa-check-circle {
+  -webkit-transform: rotate(0deg);
+          transform: rotate(0deg);
+  -webkit-transition: -webkit-transform 900ms;
+  transition: -webkit-transform 900ms;
+  transition: transform 900ms;
+  transition: transform 900ms, -webkit-transform 900ms;
 }
 
 .carte .carte__resto__choix:hover .carte__anim {
   overflow: visible;
   -webkit-transform: translateX(-50px);
           transform: translateX(-50px);
-  -webkit-transition: -webkit-transform 900ms ease-in-out;
-  transition: -webkit-transform 900ms ease-in-out;
-  transition: transform 900ms ease-in-out;
-  transition: transform 900ms ease-in-out, -webkit-transform 900ms ease-in-out;
-}
-
-.carte .carte__resto__choix:hover .fa-check-circle {
-  -webkit-transform: rotate(0deg);
-          transform: rotate(0deg);
-  -webkit-transition: -webkit-transform 900ms ease-in-out;
-  transition: -webkit-transform 900ms ease-in-out;
-  transition: transform 900ms ease-in-out;
-  transition: transform 900ms ease-in-out, -webkit-transform 900ms ease-in-out;
+  -webkit-transition: -webkit-transform 900ms;
+  transition: -webkit-transform 900ms;
+  transition: transform 900ms;
+  transition: transform 900ms, -webkit-transform 900ms;
 }
 
 @-webkit-keyframes affichage {

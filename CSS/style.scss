@@ -502,6 +502,7 @@ header{
         }
     }
     .carte__resto__choix{
+        overflow: hidden;
         display: flex;
         flex-wrap: wrap;
         background-color: #ffffff;
@@ -531,6 +532,7 @@ header{
             white-space: nowrap;
             overflow: hidden;
             text-overflow: ellipsis;
+            transition: width 900ms;
         }
         .carte__choix__2{
             font-size: 12px;
@@ -541,6 +543,7 @@ header{
             white-space: nowrap;
             overflow: hidden;
             text-overflow: ellipsis;
+            transition: width 900ms;
         }
         .carte__choix__3{
             width: 15%;
@@ -560,7 +563,6 @@ header{
             height: 50px;
             border-top-right-radius: 10px;
             border-bottom-right-radius: 10px;
-            animation: check 900ms;
             overflow: hidden;
             .fa-check-circle{
                 padding: 15px;
@@ -570,18 +572,20 @@ header{
             }
         }
         &:hover{
-            .carte__choix__3{
-                transform: translateX(-50px);
-                transition: transform 900ms ease-in-out;
+            .carte__choix__1{
+                width: 65%;
+            }
+            .carte__choix__2{
+                width: 65%;
+            }
+            .fa-check-circle{
+                transform: rotate(0deg);
+                transition: transform 900ms;
             }
             .carte__anim{
                 overflow: visible;
                 transform: translateX(-50px);
-                transition: transform 900ms ease-in-out;
-            }
-            .fa-check-circle{
-                transform: rotate(0deg);
-                transition: transform 900ms ease-in-out;
+                transition: transform 900ms;
             }
         }
     }
