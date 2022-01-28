@@ -5,7 +5,7 @@
     src: url('/police/Roboto-Regular.ttf') format('truetype');
 }
 @font-face {
-    font-family: Titre;
+    font-family: Shrikhand;
     src: url('/police/Shrikhand-Regular.ttf') format('truetype');
 }
 @mixin for-tablet{
@@ -94,7 +94,7 @@ body{
         z-index: 100;
         text-align: center;
         font-size: 35px;
-        font-family: Titre;
+        font-family: 'Shrikhand', cursive;
         margin: 0 auto;
         width: 200px;
 }
@@ -419,7 +419,7 @@ header{
     }
     .carte__nom{
         position: relative;
-        font-family: titre;
+        font-family: 'Shrikhand', cursive;
         font-size: 25px;
         margin-top: 10px;
         @include for-desktop(){
