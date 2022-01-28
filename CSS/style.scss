@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Shrikhand&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 @font-face {
     font-family: Roboto;
     src: url('/police/Roboto-Regular.ttf') format('truetype');
@@ -29,7 +31,7 @@
 *{
     box-sizing: border-box;
 
-    font-family: Roboto;
+    font-family: 'Roboto', sans-serif;
 }
 $primaire: #9356DC;
 $secondaire: #FF79DA;
@@ -66,7 +68,7 @@ body{
        
         .load__texte{
             text-align: center;
-            font-family: titre;
+            font-family: 'Shrikhand', cursive;
             color: black;
             font-size: 30px;
             margin-top: 70px;
