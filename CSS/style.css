@@ -157,6 +157,7 @@ body {
 
 a:link {
   text-decoration: none;
+  color: black;
 }
 
 a:visited {
@@ -504,7 +505,7 @@ footer {
 
 footer .footer__titre {
   color: #ffffff;
-  font-family: titre;
+  font-family: 'Shrikhand', cursive;
   padding: 15px;
 }
 
@@ -850,6 +851,10 @@ header .header__btn {
   font-size: 20px;
   -webkit-transform: rotate(360deg);
           transform: rotate(360deg);
+}
+
+.carte .carte__resto__choix:hover {
+  cursor: pointer;
 }
 
 .carte .carte__resto__choix:hover .carte__choix__1 {

@@ -135,6 +135,7 @@ body{
 }
 a:link{
     text-decoration: none;
+    color:rgb(0, 0, 0);
 }
 a:visited{
     color: black;
@@ -346,7 +347,7 @@ footer{
     }
     .footer__titre{
         color: #ffffff;
-        font-family: titre;
+        font-family: 'Shrikhand', cursive;
         padding: 15px;
     }
     .footer__lien{
@@ -584,6 +585,7 @@ header{
             }
         }
         &:hover{
+            cursor: pointer;
             .carte__choix__1{
                 width: 65%;
                 @include for-big-desktop(){
