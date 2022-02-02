@@ -396,13 +396,9 @@ header{
         width: 100%;
         object-fit: cover;
         @include for-desktop(){
-            width: 50%;
-            margin-left: 25%;
             border-radius: 15px;
         }
         @include for-big-desktop(){
-            width: 50%;
-            margin-left: 25%;
             border-radius: 15px;
         }
     }
@@ -449,14 +445,14 @@ header{
         right: 30px;
         top: 10px;
         @include for-desktop(){
-            right: 600px;
+            right: 200px;
             top: 10px;
         }
         @include for-big-tablet(){
-            right: 300px;
+            right: 450px;
             top: 10px;
         }@include for-big-desktop(){
-            right: 250px;
+            right: 300px;
         }
         
         .carte__body__coeur__before{

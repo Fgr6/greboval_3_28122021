@@ -575,16 +575,12 @@ header .header__btn {
 
 @media (min-width: 1367px) and (max-width: 1919px) {
   .carte__img img {
-    width: 50%;
-    margin-left: 25%;
     border-radius: 15px;
   }
 }
 
 @media (min-width: 1920px) {
   .carte__img img {
-    width: 50%;
-    margin-left: 25%;
     border-radius: 15px;
   }
 }
@@ -657,21 +653,21 @@ header .header__btn {
 
 @media (min-width: 1367px) and (max-width: 1919px) {
   .carte .carte__fav {
-    right: 600px;
+    right: 200px;
     top: 10px;
   }
 }
 
 @media (min-width: 1024px) and (max-width: 1366px) {
   .carte .carte__fav {
-    right: 300px;
+    right: 450px;
     top: 10px;
   }
 }
 
 @media (min-width: 1920px) {
   .carte .carte__fav {
-    right: 250px;
+    right: 300px;
   }
 }
 
