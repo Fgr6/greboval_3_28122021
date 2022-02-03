@@ -660,7 +660,7 @@ header .header__btn {
 
 @media (min-width: 1024px) and (max-width: 1366px) {
   .carte .carte__fav {
-    right: 450px;
+    right: 350px;
     top: 10px;
   }
 }

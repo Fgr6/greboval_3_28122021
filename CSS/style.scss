@@ -449,9 +449,10 @@ header{
             top: 10px;
         }
         @include for-big-tablet(){
-            right: 450px;
+            right: 350px;
             top: 10px;
-        }@include for-big-desktop(){
+        }
+        @include for-big-desktop(){
             right: 300px;
         }
         
